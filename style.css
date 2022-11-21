@@ -1,0 +1,141 @@
+
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    height: 50px;
+    background-color: aqua;
+}
+
+p{
+    border: 1px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo{
+    align-self: flex-start;
+    padding-left: 40px;
+    padding-top: 10px;
+    height: 25px;
+
+}
+
+section{
+    display: flex;
+
+}
+
+.text{
+    flex-grow: 3;
+
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    
+    align-content:space-between;
+    background-color: black;
+    height: 200px;
+    flex-shrink: initial;
+}
+
+.foto1{
+    flex-grow: 4;
+    background-color: rgb(88, 54, 54);
+    order: 13;
+}
+.foto2{
+    background-color: rgb(172, 88, 88);
+    flex-grow: 1;
+    order: 2;
+}
+.foto3{
+    order: 3;
+    flex-grow: 2;
+    background-color: rgb(177, 56, 56);
+    border: 3px opacityS blue;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(168, 168, 211);
+    border: 2px solid black;
+    align-content: center;
+}
+
+div{
+    border: 2px solid black;
+    padding: 20px ;
+    margin: 10px;
+}
+
+.footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: antiquewhite;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.item1{
+    order: 1;
+    background-color: blanchedalmond;
+}
+
+}
+
+.foto{
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.item1{
+    order: 1;
+    flex-grow: 2;
+    height: 70px;
+}
+.item2{
+    order: 2;
+    flex-grow: 5;
+    height: 25px;
+    
+}
+.item3{
+    order: 3;
+    flex-grow: 10;
+}
+
+.item4{
+    order: 4;
+    flex-grow: 2;
+    height: 70px;
+}
+
+.item5{
+    order: 5;
+    flex-grow: 2;
+}
+
+
